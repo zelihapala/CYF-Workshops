@@ -25,4 +25,4 @@ Math.trunc(-0.34); // c
 console.log(Math.trunc(-0.34));
 
 Math.floor(-0.34); // c
-console.log(Math.floor(-0.34));
+console.log(Math.floor(-0.34)); //
