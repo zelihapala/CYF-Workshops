@@ -1,0 +1,7 @@
+{
+  "name": "time-string-example",
+  "description": "An example for time string test",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
