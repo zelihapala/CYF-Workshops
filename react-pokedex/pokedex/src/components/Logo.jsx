@@ -4,7 +4,7 @@ function Logo() {
   const appName = "Zeliha's Pokedex";
 
   function logWhenClicked() {
-    console.log("Logo clicked!");
+    console.log("Logo clicked!"); 
   }
 
   return (

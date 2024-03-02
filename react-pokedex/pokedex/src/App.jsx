@@ -3,6 +3,7 @@ import Logo from './components/Logo';
 import BestPokemon from './components/BestPokemon';
 import CaughtPokemon from './components/CaughtPokemon';
 
+
 function App() {
   return (
     <div>
@@ -12,5 +13,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
