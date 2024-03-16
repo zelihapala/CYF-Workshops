@@ -1,55 +1,26 @@
-
 body {
-    width: 80%;
- 
-    background-color: #282c34;
-    color: white;
-    padding: 40px;
-    font-family: Arial, sans-serif;
-    text-align: center;
-  }
-  
-  
-  .caught-pokemon-list {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    gap: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  
-  }
-  
+  width: 90%;
 
-  .pokemon-moves {
-    margin-top: 20px;
-    font-size: 14px;
-  }
-  
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
 
-  .fetchbtn {
-    margin-right: 20px; 
-    margin-bottom: 10px; 
-    
-  }
-    
-  .pokemon-link1 {
-    background-color: rgb(241, 148, 7);
-    padding: 5px 10px;
-    margin-top: 20px; /* Adjust margin-top as needed */
-    margin-right: 10px; 
-    color: white;
-    text-decoration: none;
-  }
-  
-  .pokemon-link2 {
-    background-color: rgb(241, 148, 7);
-    padding: 5px 10px;
-    margin-top: 20px; /* Adjust margin-top as needed */
-    margin-left: 10px;
-    color: white;
-    text-decoration: none;
-  }
-  
-  
-  
-  
+.pokemon-link2 {
+  background-color: rgb(12, 13, 95);
+  padding: 5px 10px;
+  margin-top: 20px; /* Adjust margin-top as needed */
+  margin-left: 10px;
+
+  border-radius: 3px;
+}
+
+.pokemon-link2 {
+  background-color: rgb(12, 13, 95);
+  padding: 5px 10px;
+  margin-top: 20px; /* Adjust margin-top as needed */
+  margin-right: 10px;
+
+  text-decoration: none;
+  border-radius: 3px;
+}

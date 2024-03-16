@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "./components/Logo";
 import BestPokemon from "./components/BestPokemon";
 import CaughtPokemon from "./components/CaughtPokemon";
-
+import PokemonInfo from "./components/ PokemonInfo";
 import PokemonMovesSelector from "./components/PokemonMovesSelector";
 import PokemonCity from "./components/PokemonCity";
 import "./App.css";
@@ -21,6 +21,7 @@ function App() {
         <Routes>
           <Route path="/best-pokemon" element={<BestPokemon />} />
           <Route path="/caught-pokemon" element={<CaughtPokemon />} />
+          <Route path="/pokemon/:id" element={<PokemonInfo />} />
         </Routes>
         <PokemonMovesSelector />
         <PokemonCity />
